@@ -5,9 +5,10 @@ import AuthorsList from './components/author-list/author-list';
 import BookList from './components/book-list/book-list';
 import Facets from './components/facets/facets';
 import Spinner from './components/spinner/spinner';
-import './App.css';
 
 import { useBook } from './context/books-context';
+
+import './App.css';
 
 function App() {
 
