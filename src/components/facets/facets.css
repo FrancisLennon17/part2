@@ -1,0 +1,26 @@
+ul.facets {
+    display: flex;
+    list-style-type: none;
+    padding: 3px 5px;
+    text-align: left;
+}
+
+ul.facets li {
+    align-items: baseline;
+    background-color: #c5ebe2;
+    border-radius: 15px;
+    color: #838383;
+    display: flex;
+    list-style-type: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-align: left;
+
+}
+ul.facets li span.remove {
+
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+

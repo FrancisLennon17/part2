@@ -1,28 +1,27 @@
-Coding Challenge
-We have intentionally left these requirements relatively vague to see your approach. 
+# Book List Front End
 
-Part 1 – Back End
+This is a react app to work with the book API for viewing book details.
 
-Clone this repository and make a pull request with the following content
-https://github.com/FrancisLennon17/part1
+## Running locally
 
-Create a Rest API in NodeJS (with Typescript) that contains 3 endpoints.
-1.	fetch a list of books.
-2.	Fetch a list of authors
-3.	delete a book
+Running the app is done using the `npm run start` command. Please ensure the back end is also running.
 
-The books should come from a JSON file, that contains 10 books. The fetch endpoint should be filterable by author.
+## Unit Tests
 
-Part 2 – Front End
+...ran out of time.
 
-Clone this repository and make a pull request with the following content
-https://github.com/FrancisLennon17/part2
+## Linting & Code Formatting
 
--	Create a React app (with Typescript)
--	Fetch the authors from the API
--	Select an author via the webpage
--	Fetch the list of filtered books by that author from the API
--	Loading spinner in the centre of the screen when the API is fetching
--	Display list of books on the screen
--	Option to delete a book via the API
+| Command              | Description                             |
+|----------------------|-----------------------------------------|
+| `npm run lint`       | ESLint the codebase                     |
+| `npm run lint:fix`   | ESLint with `--fix` to fix simple stuff |
 
+## Tech Debt / Todo
+
+- share `Book` interface
+- .env file (optional)
+- Dockerise
+- Add graphql, and able to browse books by subject.
+- Add router, so specific books can be accessed directly.
+- Theme (define colour pallette etc.)
