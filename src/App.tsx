@@ -19,7 +19,7 @@ function App() {
   const showBooks = books && books.length > 0;
   return (
     <div className="App">
-<p>DELETE BOOKS FOR FUN!</p>
+      <p>DELETE BOOKS FOR FUN!</p>
       <Container>
         {<Facets />}
         {!showBooks && <AuthorsList authors={authors} />}

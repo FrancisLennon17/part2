@@ -19,6 +19,7 @@ Running the app is done using the `npm run start` command. Please ensure the bac
 
 ## Tech Debt / Todo
 
+- I hit a lot of eslint-related issues, so need to resolve those.
 - share `Book` interface
 - .env file (optional)
 - Dockerise
