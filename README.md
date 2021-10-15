@@ -19,10 +19,9 @@ Running the app is done using the `npm run start` command. Please ensure the bac
 
 ## Tech Debt / Todo
 
-- I hit a lot of eslint-related issues, so need to resolve those.
-- share `Book` interface
-- .env file (optional)
+- share `Book` interface between repos (various options: another repo/graphql)
+- Expand/document `.env` file (optional)
 - Dockerise
-- Add graphql, and able to browse books by subject.
+- Add graphql, and ability to browse books by subject.
 - Add router, so specific books can be accessed directly.
 - Theme (define colour pallette etc.)
