@@ -1,0 +1,44 @@
+ul.book-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul.book-list li {
+    min-height: 100px;
+
+    -webkit-box-shadow: 30px 30px 8px 1px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.03);
+    box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.03);
+    font-size: 16px;
+    min-height: 30px;
+    align-items: center;
+    border-left: 3px solid blue;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.delete {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.confirm-delete {
+    background-color: rgb(214, 38, 38);
+    color: white;
+}
+
+.cancel-delete {
+    background-color: rgb(182 178 203);
+    color: rgb(2, 2, 2);
+    margin-left: 5px;
+}
+
+ul.book-list li button {
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+ 
